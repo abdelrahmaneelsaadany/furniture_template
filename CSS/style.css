@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@200;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&family=Ubuntu:ital@1&family=Work+Sans:wght@200;300;400;600;700;800&display=swap');
+
+
+/* Start Var  */
+:root{
+    --mainColor:#f44336;
+    --secondColor:#616161;
+    --main-padding:80px
+}
+/* End Var  */
+body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/* Start Component */
+.line{
+    width: 50px;
+    border-radius: 5px;
+    border: 5px solid red;
+    position: relative;
+    z-index: 999;
+    opacity: 1 !important;
+}
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--mainColor);
+}
+/* End Component */
+/* Start Nav */
+.navbar{
+    background-color: var(--mainColor);
+}
+.navbar .navbar-nav .nav-link{
+    transition: all ease-in-out 0.5s;
+    color: white;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: black;
+}
+/* End Nav */
+/* Start ShowCase */
+.showcase{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    min-height: calc( 100vh - 72.2px)
+}
+.showcase .box-image img{
+    transition: all ease 0.6s;
+    cursor: pointer;
+}
+.showcase .box-image img:hover{
+    opacity: 0.6;
+}
+/* End ShowCase */
+/* Start Services */
+.services{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+}
+/* End Services */
+/* Start Designer */
+.design{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+}
+/* End Designer */
+/* Start Packages */
+.packages{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+}
+.packages .info-price .head{
+    background-color: var(--secondColor)
+}
+.packages .info-price li{
+    background-color: #f1f1f1 !important;
+}
+.packages .info-price ul li .nav-link{
+    color: black;
+    background-color: #fff;
+    width: fit-content;
+    padding: 15px 25px;
+    border: none !important;
+    margin: 0 auto ;
+    transition: all 0.5s ease;
+}
+.packages .info-price ul li .nav-link:hover{
+    background-color: black;
+    color: white;
+}
+.packages .info-price .head2{
+    background-color: var(--mainColor);
+}
+.packages .info-price .link2{
+    background-color: var(--mainColor) !important ;
+    transition: all ease 0.5s;
+}
+.packages .info-price .link2:hover{
+    background-color: black !important;
+}
+/* End Packages */
+/* Start Contact */
+.contact{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+}
+.contact .contact-info a{
+    background-color: var(--mainColor);
+    transition: all ease 0.5s;
+}
+.contact .contact-info a:hover{
+    background-color: var(--secondColor);
+}
+/* End Contact */
+/* Start Footer */
+.footer{
+    background-color: #f1f1f1;
+}
+.footer span{
+    color: var(--mainColor);
+}
+/* End Footer */
